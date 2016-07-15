@@ -23,6 +23,7 @@ env:
   global:
    - CCACHE_COMPRESS=1
    - JOBS=4
+   - CASHER_TIME_OUT=500
 
 matrix:
   fast_finish: true
