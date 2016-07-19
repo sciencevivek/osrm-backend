@@ -24,6 +24,7 @@ env:
    - CCACHE_COMPRESS=1
    - JOBS=4
    - CASHER_TIME_OUT=1000
+   - CCACHE_TEMPDIR=/tmp/.ccache-temp
 
 matrix:
   fast_finish: true
